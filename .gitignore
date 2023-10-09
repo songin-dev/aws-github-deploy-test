@@ -193,4 +193,7 @@ dist
 .history
 .ionide
 
+#pem key
+songin_dev.pem
+
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,node

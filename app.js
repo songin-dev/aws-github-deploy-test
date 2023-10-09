@@ -1,11 +1,11 @@
-import express from 'express';
-const app = express();
-let port = process.env.port || 3000;
+const express = require('express') 
+const app = express()
+const port = process.env.port || 80;
 
 app.get('/ping', (req, res) => {
-    res.send('pong!');
+    res.send('pong!')
 });
 
 const server = app.listen(port, () => {
-    console.log(`server on ${port}`);
+    console.log(`server on ${port}`)
 });
